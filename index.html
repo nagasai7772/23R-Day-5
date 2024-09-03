@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+         
+    <style>
+        body{
+            background-image: url("./assests/images/google.png");
+        color: aliceblue;
+        background-size: 1000px;
+        border: yellow;
+        
+        
+       }
+       h1{
+        color:aqua;
+        font-size: 70px;
+        
+       }
+       marquee{
+        color:yellow;
+        font-size: 25px;
+       }
+       form{
+        position: absolute;
+        top:50px;
+        left: 500px;
+        font-size: 20px;
+       }
+        
+                   
+       
+       .req{
+        border-radius: 8px;
+        width: 350px;
+        height: 35px;
+        text-align: center;
+       }
+       button{
+        background-color: teal;
+       }
+    </style>
+     
+
+
+
+
+
+
+</head>
+<body>   
+        
+    
+    <marquee direction="righttoleft">Applying For Googleworkspace</marquee>
+   
+   <div class="google"> <form >
+        <label for="Firstname">Firstname:</label>
+        
+        <input type="txt" name="name" placeholder="Enter name" required class="req"><br><br>
+
+        <label for="Lastname">Lastname:</label>
+        <input type="txt" name="name" placeholder="Enter name" class="req"><br><br>
+     <center>   <label for="gender"></label>
+        <input type="radio" id="gender" name="Gender" value="Male">Male
+        <label for="gender"></label>
+        <input type="radio" id="gender" name="Gender" value="Female">Female
+        <label for="gender"></label>
+        <input type="radio" id="gender" name="Gender" value="Not to say">Not to say<br><br></center>
+        <label for="birthday"></label>
+        Enter DOB:<input type="date" id="birthday" value="DOB" class="req"><br><br>
+        <label for="tel"></label>
+        Mobilenumber: <input type="tel" name="Mobilenumber" pattern="[0-9]{10}" required placeholder="9999999999" class="req"><br><br>
+        <label for="email"></label>
+        Enter Email: <input type="email" id="email" placeholder="John@gmail.com" required class="req"><br><br> Enter your Address:<br>
+        <textarea rows="7" cols="50"></textarea><br><br>Enter pincode:<input type="pincode"  pattern="[0-9]{5}" class="req"><br><br>
+
+        Applying as a:
+        <select option="dropdown">
+            <option value="" >Selectoption</option>
+            <option value="Intern" id="Intern">Intern</option>
+            <option value="Fresher" id="Fresher">Fresher</option>
+            <option value="Experienced" id="Experienced">Experienced</option>
+        </select>
+        <br><br>
+        Choose skills of yours:<br>
+        
+        <input type="checkbox" name="Skill" value="Html">Html<br>
+        <input type="checkbox" name="Skill"  value="CSS">CSS<br>
+        <input type="checkbox" name="Skill" value="Javascript">Javascript<br>
+        <input type="checkbox" name="Skill" value="Python">Python<br>
+        <input type="checkbox" name="Skill" value="Java">Java<br>Enter some criteria:<br>
+
+        <textarea rows="7" cols="50"></textarea><br><br>
+        
+        <center>  <button class="req">Submit </button></center></a>
+
+    </form></div>
+
+</body>
+</html>
